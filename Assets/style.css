@@ -18,25 +18,26 @@ body,html
         50%{background-position:100px 0}
         to{background-position:100px 0}
     }
-        .min-h-full{min-height:100vh
-        }
-        .flex{display:flex
+    
+        .flex{
+            display: flex;
+
         }
         .flex-both-center{
-            display:flex;
+            display: flex; 
             justify-content:center;
-            align-items:center;
+            align-items:center;     
             
         }
-        .flex-wrap{flex-wrap:wrap
-        }
+      
         .flex-h-center{
-            display:flex;
+            display: flex; 
             justify-content: center; 
-            
+
         }
         .item-center{
             align-items:center; 
+
         }
         .flex-dir-c{
             flex-direction:column;
@@ -66,8 +67,7 @@ body,html
         .text-fs-20{font-size:20px}
         .text-fs-22{font-size:22px
         }
-        .font-inter{font-family:Chakra Petch,sans-serif
-        }
+      
         .font-weight-500{
             font-weight:500
         }
@@ -86,6 +86,7 @@ body,html
             height:100vh;
             width:100vw
         }
+        
         .w-full{width:100%}.w-250{width:250px}.h-150,.h-165{height:150px
         }
         .background-overlay{
@@ -103,7 +104,7 @@ body,html
             background:rgba(0,0,0,.1);
             -webkit-backdrop-filter:blur(20px);
             backdrop-filter:blur(20px);
-            z-index:100
+            z-index:100; 
         }
         .page-overlay-btn{
             text-decoration:none;
@@ -153,19 +154,22 @@ body,html
         }
         .page-full-wrap{
             width:680px;
-            z-index:10;
-            padding-bottom:176px
+            z-index:10000;
+            margin-bottom: 200px;
+          
+        
+          
         }
         .page-item-wrap{
-            transition:transform .15s cubic-bezier(.17,.67,.29,2.71) 0s
+            transition:transform .15s cubic-bezier(.17,.67,.29,2.71) 0s; 
         }
         .page-item-wrap.show-embed{
             border-radius:30px;
             transition:unset;
-            transform:unset
+            transform:unset;
         }
         .page-item-wrap.show-embed:hover{
-            transform:unset
+            transform:unset;
         }
         .page-item-wrap.show-embed:hover .page-item:after,.page-item-wrap.show-embed:hover .page-item:before
         {
@@ -207,16 +211,9 @@ body,html
             
         }
         .relative{
-            position:relative;
+            position: relative;
         }
-    
-        .link-each-image{
-            width:43px;
-            
-           
-           
-            
-        }
+
         .page-logo{
             position:absolute;
             bottom:32px;
@@ -366,9 +363,9 @@ body,html
         .dark-input{
             border:1.5px solid #222;
             height:48px;
-            width:calc(100% - 100px);F
-            font-size:16px;
-            color:#222
+            width:calc(100% - 100px);
+            font-size: 16px;
+            color:#222;
         }
         .subsc-email::-moz-placeholder{
             font-family:Chakra Petch,sans-serif;
@@ -484,7 +481,7 @@ body,html
         .op-0{opacity:0
         }
         .hidden{
-            display:none
+            display:none; 
         }
         .campaign-main-wrap{
             width:400px
@@ -616,8 +613,8 @@ body,html
                 }
 
     .page-item-wrap {
-                        margin: 16px 0;
-                }
+        margin: 10px 0;
+    }
 
     .page-item-wrap:last-child {
         margin-bottom: 0;
@@ -639,10 +636,6 @@ body,html
 
     .embed-wrap iframe, .embed-wrap-inside {
         border-radius: 8px;
-    }
-
-    .link-each-image, .page-item-wrap {
-        border-radius: 10000px;
     }
 
     .page-text-font {
@@ -678,7 +671,20 @@ body,html
         font-family: 'Chakra petch', sans-serif;
         font-size: 20px;
         color: #919191;
-        position: relative; 
+        position: inherit; 
         top: 84%; 
         
+    }
+
+    .moreinfo{
+        position: relative;
+        font-family: 'Chakra petch', sans-serif;
+        text-align: center;
+        
+        color: #000; 
+        background:transparent;  
+        border: 2px solid #000;
+
+     
+
     }
