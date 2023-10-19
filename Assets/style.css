@@ -1,8 +1,9 @@
 body,html
 {-ms-scroll-chaining:none;
 overscroll-behavior:none;
-margin: 0%;
-padding: 0%;
+margin: 0px; 
+padding: 0px; 
+
 
 }
 
@@ -677,8 +678,8 @@ box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24
 }
 
 .social-text, .position{
-    position: inherit; 
-    top: 73%;
+    position: relative; 
+    top: 85%; 
 }
 
 .social-text {
@@ -693,7 +694,7 @@ box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24
     position: relative;
     text-align: center;
     font-family: 'Chakra petch', sans-serif;
-    color: #919191;
+    color: #249dff;
     font-size: 20px; 
 }
 
@@ -703,30 +704,31 @@ box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24
     color: #249dff;
     font-size: 16px;
     position: relative; 
-    bottom: 90px;
+    bottom: 80px;    
     margin: 0px;
 
 }
 
 .more-site{
     border-radius: 50px;
-    border: 3px solid white;
+    border: 2px solid white;  
     box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
     position: relative; 
-    bottom: 100px;
+    bottom: 100px; 
     max-width: 150px;
     margin: auto;
-    padding: 5px;
+    padding: 10px;
     
 }
 
-.box1 , .box2{
-    border-radius: 10px;
-    border: 5px solid #249cff13;
+.box1 , .box2 {
     padding: 25px;
-    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
     position: relative;
     bottom: 100px;
+    border-radius: 20px;  
+    border: 5px solid #249cff1f;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.178), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
+    backdrop-filter: blur(5px) saturate(100%);
 }
 
 .box1 {
@@ -740,4 +742,28 @@ box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24
     margin-bottom: 30px; 
     pointer-events: none; 
 
+}
+
+.aboutus{
+    margin-bottom: 20px;
+    font-family: 'Chakra petch', sans-serif;
+    text-align: center;
+    padding: 25px; 
+    border-radius: 20px;
+    border: 5px solid #249cff1f;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.178), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
+    backdrop-filter: blur(5px) saturate(100%);
+    position: relative;
+    bottom: 100px;
+    background-color: #249cff15;
+}
+
+.titleaboutus{
+    text-align: center;
+    font-family: 'Chakra petch', sans-serif;
+    color: #249dff;
+    font-size: 20px; 
+    border-radius: 50px;
+    margin-bottom: 15px; 
+    
 }
