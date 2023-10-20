@@ -175,13 +175,11 @@ padding: 0px;
     
 }
 .page-item-wrap {
-    transition:transform .15s cubic-bezier(.17,.67,.29,2.71) 0s; 
-    
-    
+    transition:transform .4s cubic-bezier(.17,.67,.29,2.71) 0s;
 }
 
 .page-item-wrap a{
-    color: rgba(0, 0, 0, 0.514); 
+    color: #249cffcc;
     text-decoration: none;
 }
 
@@ -295,8 +293,8 @@ padding: 0px;
     top:0
 }
 .page-social:hover{
-    transition: all .1.0s ease-in-out;
-    transform:scale(1.2)
+    transition: all 0.1s ease-in-out;
+    transform:scale(1.1)
 }
 .page-item-title{
     font-weight:700;
@@ -635,14 +633,14 @@ padding: 0px;
 }
 
 .page-item-wrap:hover {
-    transform: translate3d(0px, 1px, 0px) scale(1.03);
+    transform: translate3d(0px, 1px, 0px) scale(1.05);
 }
 
 
 .page-item {
-border: 0px solid #00aeff7c;
-background: #00aeff44;
-border-radius: 5px;
+border: 2px solid #ffffff0e;
+background: #249cff42;
+border-radius: 100px;
 box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
 }
 
@@ -694,7 +692,8 @@ box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24
     position: relative;
     text-align: center;
     font-family: 'Chakra petch', sans-serif;
-    color: #249dff;
+    color: #919191;
+   
     font-size: 20px; 
 }
 
