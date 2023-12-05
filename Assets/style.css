@@ -147,6 +147,7 @@ padding: 0px;
     height:100%;
     -o-object-fit:cover;
     object-fit:cover; 
+    pointer-events: none;
 }
 .display-image{
     margin: auto;
@@ -175,7 +176,7 @@ padding: 0px;
     
 }
 .page-item-wrap {
-    transition:transform .4s cubic-bezier(.17,.67,.29,2.71) 0s;
+    transition:transform .3s cubic-bezier(.17,.67,.29,2.71) 0s;
 }
 
 .page-item-wrap a{
@@ -185,7 +186,7 @@ padding: 0px;
 
 
 .page-item-wrap.show-embed{
-    border-radius:30px;
+    border-radius: 30px;
     transition:unset;
     transform:unset;
     
@@ -203,7 +204,7 @@ padding: 0px;
     transition:all .3s ease-in-out
 }
 .page-item-wrap.show-embed .show-embed-item{
-    overflow:visible
+    overflow: visible;
 }
 .embed-ind-arrow-icon{
     transform:rotate(-90deg)
@@ -221,14 +222,13 @@ padding: 0px;
     z-index:-1
 }
 .page-social{
-    position: relative;
     cursor: pointer;
-    margin:0 10px 50px;
+    margin: 10px 10px; 
 
 }
 .page-social svg{
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
 }
 .relative{
     position: relative;
@@ -293,8 +293,8 @@ padding: 0px;
     top:0
 }
 .page-social:hover{
-    transition: all 0.1s ease-in-out;
-    transform:scale(1.1)
+    transition: all 0.15s linear;
+    transform:scale(1.2)
 }
 .page-item-title{
     font-weight:700;
@@ -625,7 +625,8 @@ padding: 0px;
 }
 
 .page-item-wrap {
-    margin: 5px 0;
+    margin: 8px 40px;
+    padding: 10px;
 }
 
 .page-item-wrap:last-child {
@@ -633,15 +634,15 @@ padding: 0px;
 }
 
 .page-item-wrap:hover {
-    transform: translate3d(0px, 1px, 0px) scale(1.05);
+    transform: translate3d(0px, 0px, 0px) scale(1.06);
+
 }
 
 
 .page-item {
-border: 2px solid #ffffff0e;
-background: #249cff42;
+background: linear-gradient(90deg, #ffffff 0%, #2fa1ff4b 100%);
 border-radius: 20px;
-box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
+box-shadow: 0px 10px 20px 0px #00000013 ;
 }
 
 .embed-wrap iframe, .embed-wrap-inside {
@@ -650,15 +651,16 @@ box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24
 
 .page-text-font {
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     font-family: 'Chakra petch', sans-serif;
     position: relative;
-    top: 40px; 
+    top: 35px; 
     
 }
 
 .page-text-color {
-    color: #249dff;
+    color: #2ea9e2; 
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.247);
 }
 
 .cab-text {
@@ -677,7 +679,7 @@ box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24
 
 .social-text, .position{
     position: relative; 
-    top: 85%; 
+    top: 87%;   
 }
 
 .social-text {
