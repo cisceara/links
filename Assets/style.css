@@ -147,7 +147,7 @@ font-family: 'Sora', sans-serif;
     position: fixed; 
     width: 100%;
     height: 100%;
-    background-image: url(./img/Backgroundwhite2.jpg);
+    background-image: url(./img/Backgroundwhite.svg);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -569,6 +569,14 @@ font-family: 'Sora', sans-serif;
 .embed-wrap-inside iframe{width:100%; min-width:unset}
 .page-overlay-title{font-size:24px; margin:16px 0}
 .embed-wrap-inside:after{width:93%}
+
+.img-cis{
+    display: flex;
+    justify-content: center;
+
+  
+}
+
 }
 @media (max-width:480px){
 .campaign-main-wrap{width:100%;
@@ -759,5 +767,64 @@ box-shadow: 0px 10px 20px 0px #00000013 ;
     font-size: 20px; 
     border-radius: 50px;
     margin-bottom: 15px; 
+}
+
+.img-link {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    aspect-ratio: auto 4 / 3;
+    border-radius: 20px;
+    border: 6px solid #ffffff;
+    position: relative;
+    padding: 10px;
+    bottom: 100px;
+    background-image: url(./img/Ecossistema_CIS.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 #2ea9e2;
+}
+
+.img-link:hover {
+    border: 6px solid  #2ea9e2;
+    transform: scale(0.99);
+    text-decoration: none;
+}
+
+.btn-link{
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #2ea9e2;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: all 0.2s linear;
+    outline: none;
+}
+
+.btn-link:hover {
+    transform: scale(1.06);
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2ea9e2;
+    padding: 6px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #2ea9e277;
     
 }
+
